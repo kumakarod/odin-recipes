@@ -1,0 +1,88 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container {
+  background-color: white;
+  margin: 20px auto;
+  width: 350px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  height: 80vh;
+}
+
+.home-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.home-list {
+  list-style: none;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.home-link:hover {
+  color: whitesmoke;
+  background-color: slategrey;
+  padding: 5px 10px;
+  transition: ease-in-out;
+  transition-duration: 200ms;
+}
+
+.header {
+  background-color: black;
+  width: 100vw;
+  padding: 20px 15px;
+  position: sticky;
+  top: 0;
+}
+
+.recipe {
+  width: 60vw;
+  margin: 5px auto;
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.menu {
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.description {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 20px;
+  width: 40%;
+  vertical-align: top;
+}
+
+.img-recipe {
+  display: inline-block;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.ingredients li,
+.steps li {
+  line-height: 20px;
+}
+
+.ingredients,
+.intro {
+  margin-bottom: 20px;
+}
